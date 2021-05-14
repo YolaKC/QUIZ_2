@@ -26,9 +26,9 @@ $cek=mysqli_num_rows($sql);
         session_start();
         $_SESSION['username']=$user;
         $_SESSION['password']=$password;
-        echo "<br><br><br><br><center>Selamat Datang <b>$user</b>, Anda Berhasil Login<br>";
+        echo "<center>Selamat Datang <b>$user</b>, Anda Berhasil Login<br>";
     } else {
-        echo "<br><br><br><br><center>Username dan Password Anda Salah<br>";
+        echo "<center>Username dan Password Anda Salah<br>";
         echo "Silahkan <a href=login.php>Login</a> Kembali</center>";
     }
     ?>
