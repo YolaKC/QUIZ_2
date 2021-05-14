@@ -3,6 +3,7 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
 </head>
 <body>
     <form class="login-box" method="POST" action="aksilogin.php">
